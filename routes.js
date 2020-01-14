@@ -1,15 +1,8 @@
 // Routes.js - Módulo de rutas
 const express = require('express');
 const router = express.Router();
-const data = require('./data/info.json');
-const users = [
-  {
-    firstName: 'Luis',
-    lastName: 'Gomez',
-    age: 25,
-    mail: 'luisGom@domain.com',
-  }
-];
+const dataJSON = require('./data/info.json');
+const users = require('./data/users.json');
 
 // Get mensajes
 router.get('/', function (req, res) {
@@ -18,7 +11,7 @@ router.get('/', function (req, res) {
     response: true,
     errors: [],
     message:'API Test, Succesful',
-    data
+    dataJSON
   });
 });
 
@@ -42,7 +35,7 @@ router.post('/', function (req, res) {
 
 });
 
-// Almacenar la suscripción
+// Ver usuarios
 router.get('/users', (req, res) => {
 
   res.json({
