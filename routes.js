@@ -3,6 +3,7 @@ const express = require('express');
 const router = express.Router();
 const dataJSON = require('./data/info.json');
 const users = require('./data/users.json');
+const schoolsJSON = require('./data/schools.json');
 
 // Get mensajes
 router.get('/', function (req, res) {
@@ -31,6 +32,18 @@ router.post('/', function (req, res) {
     errors: [],
     message: 'succesful',
     data
+  });
+
+});
+
+// Ver usuarios
+router.get('/schools', (req, res) => {
+
+  res.json({
+    response: true,
+    errors: [],
+    message: 'succesful',
+    data: schoolsJSON
   });
 
 });
