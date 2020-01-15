@@ -1,0 +1,422 @@
+[
+  {
+    "id": 1,
+    "name_course": "Matemáticas",
+    "name_group": "1B"
+  },
+  {
+    "id": 2,
+    "name_course": "Matemáticas",
+    "name_group": "1A"
+  },
+  {
+    "id": 3,
+    "name_course": "Matemáticas",
+    "name_group": "1C"
+  },
+  {
+    "id": 4,
+    "name_course": "Matemáticas",
+    "name_group": "1D"
+  },
+  {
+    "id": 5,
+    "name_course": "Matemáticas",
+    "name_group": "2A"
+  },
+  {
+    "id": 6,
+    "name_course": "Matemáticas",
+    "name_group": "2B"
+  },
+  {
+    "id": 7,
+    "name_course": "Matemáticas",
+    "name_group": "2C"
+  },
+  {
+    "id": 8,
+    "name_course": "Matemáticas",
+    "name_group": "2D"
+  },
+  {
+    "id": 9,
+    "name_course": "Matemáticas",
+    "name_group": "3A"
+  },
+  {
+    "id": 10,
+    "name_course": "Matemáticas",
+    "name_group": "3B"
+  },
+  {
+    "id": 11,
+    "name_course": "Matemáticas",
+    "name_group": "3C"
+  },
+  {
+    "id": 12,
+    "name_course": "Matemáticas",
+    "name_group": "3D"
+  },
+  {
+    "id": 13,
+    "name_course": "Ciencias",
+    "name_group": "1A"
+  },
+  {
+    "id": 14,
+    "name_course": "Ciencias",
+    "name_group": "1B"
+  },
+  {
+    "id": 15,
+    "name_course": "Ciencias",
+    "name_group": "1C"
+  },
+  {
+    "id": 16,
+    "name_course": "Ciencias",
+    "name_group": "1D"
+  },
+  {
+    "id": 17,
+    "name_course": "Ciencias",
+    "name_group": "2A"
+  },
+  {
+    "id": 18,
+    "name_course": "Ciencias",
+    "name_group": "2B"
+  },
+  {
+    "id": 19,
+    "name_course": "Ciencias",
+    "name_group": "2C"
+  },
+  {
+    "id": 20,
+    "name_course": "Ciencias",
+    "name_group": "2D"
+  },
+  {
+    "id": 21,
+    "name_course": "Ciencias",
+    "name_group": "3A"
+  },
+  {
+    "id": 22,
+    "name_course": "Ciencias",
+    "name_group": "3B"
+  },
+  {
+    "id": 23,
+    "name_course": "Ciencias",
+    "name_group": "3C"
+  },
+  {
+    "id": 24,
+    "name_course": "Ciencias",
+    "name_group": "3D"
+  },
+  {
+    "id": 25,
+    "name_course": "Historia",
+    "name_group": "1A"
+  },
+  {
+    "id": 26,
+    "name_course": "Historia",
+    "name_group": "1B"
+  },
+  {
+    "id": 27,
+    "name_course": "Historia",
+    "name_group": "1C"
+  },
+  {
+    "id": 28,
+    "name_course": "Historia",
+    "name_group": "1D"
+  },
+  {
+    "id": 29,
+    "name_course": "Historia",
+    "name_group": "2A"
+  },
+  {
+    "id": 30,
+    "name_course": "Historia",
+    "name_group": "2B"
+  },
+  {
+    "id": 31,
+    "name_course": "Historia",
+    "name_group": "2C"
+  },
+  {
+    "id": 32,
+    "name_course": "Historia",
+    "name_group": "2D"
+  },
+  {
+    "id": 33,
+    "name_course": "Historia",
+    "name_group": "3A"
+  },
+  {
+    "id": 34,
+    "name_course": "Historia",
+    "name_group": "3B"
+  },
+  {
+    "id": 35,
+    "name_course": "Historia",
+    "name_group": "3C"
+  },
+  {
+    "id": 36,
+    "name_course": "Historia",
+    "name_group": "3D"
+  },
+  {
+    "id": 37,
+    "name_course": "Lengua Extranjera",
+    "name_group": "1A"
+  },
+  {
+    "id": 38,
+    "name_course": "Lengua Extranjera",
+    "name_group": "1B"
+  },
+  {
+    "id": 39,
+    "name_course": "Lengua Extranjera",
+    "name_group": "1C"
+  },
+  {
+    "id": 40,
+    "name_course": "Lengua Extranjera",
+    "name_group": "1D"
+  },
+  {
+    "id": 41,
+    "name_course": "Lengua Extranjera",
+    "name_group": "2A"
+  },
+  {
+    "id": 42,
+    "name_course": "Lengua Extranjera",
+    "name_group": "2B"
+  },
+  {
+    "id": 43,
+    "name_course": "Lengua Extranjera",
+    "name_group": "2C"
+  },
+  {
+    "id": 44,
+    "name_course": "Lengua Extranjera",
+    "name_group": "2D"
+  },
+  {
+    "id": 45,
+    "name_course": "Lengua Extranjera",
+    "name_group": "3A"
+  },
+  {
+    "id": 46,
+    "name_course": "Lengua Extranjera",
+    "name_group": "3B"
+  },
+  {
+    "id": 47,
+    "name_course": "Lengua Extranjera",
+    "name_group": "3C"
+  },
+  {
+    "id": 48,
+    "name_course": "Lengua Extranjera",
+    "name_group": "3D"
+  },
+  {
+    "id": 49,
+    "name_course": "Formación Cívica y Ética",
+    "name_group": "1A"
+  },
+  {
+    "id": 50,
+    "name_course": "Formación Cívica y Ética",
+    "name_group": "1B"
+  },
+  {
+    "id": 51,
+    "name_course": "Formación Cívica y Ética",
+    "name_group": "1C"
+  },
+  {
+    "id": 52,
+    "name_course": "Formación Cívica y Ética",
+    "name_group": "1D"
+  },
+  {
+    "id": 53,
+    "name_course": "Formación Cívica y Ética",
+    "name_group": "2A"
+  },
+  {
+    "id": 54,
+    "name_course": "Formación Cívica y Ética",
+    "name_group": "2B"
+  },
+  {
+    "id": 55,
+    "name_course": "Formación Cívica y Ética",
+    "name_group": "2C"
+  },
+  {
+    "id": 56,
+    "name_course": "Formación Cívica y Ética",
+    "name_group": "2D"
+  },
+  {
+    "id": 57,
+    "name_course": "Formación Cívica y Ética",
+    "name_group": "3A"
+  },
+  {
+    "id": 58,
+    "name_course": "Formación Cívica y Ética",
+    "name_group": "3B"
+  },
+  {
+    "id": 59,
+    "name_course": "Formación Cívica y Ética",
+    "name_group": "3C"
+  },
+  {
+    "id": 60,
+    "name_course": "Formación Cívica y Ética",
+    "name_group": "3D"
+  },
+  {
+    "id": 61,
+    "name_course": "Geografia",
+    "name_group": "1A"
+  },
+  {
+    "id": 62,
+    "name_course": "Geografia",
+    "name_group": "1B"
+  },
+  {
+    "id": 63,
+    "name_course": "Geografia",
+    "name_group": "1C"
+  },
+  {
+    "id": 64,
+    "name_course": "Geografia",
+    "name_group": "1D"
+  },
+  {
+    "id": 65,
+    "name_course": "Geografia",
+    "name_group": "2A"
+  },
+  {
+    "id": 66,
+    "name_course": "Geografia",
+    "name_group": "2B"
+  },
+  {
+    "id": 67,
+    "name_course": "Geografia",
+    "name_group": "2C"
+  },
+  {
+    "id": 68,
+    "name_course": "Geografia",
+    "name_group": "2D"
+  },
+  {
+    "id": 69,
+    "name_course": "Geografia",
+    "name_group": "3A"
+  },
+  {
+    "id": 70,
+    "name_course": "Geografia",
+    "name_group": "3B"
+  },
+  {
+    "id": 71,
+    "name_course": "Geografia",
+    "name_group": "3C"
+  },
+  {
+    "id": 72,
+    "name_course": "Geografia",
+    "name_group": "3D"
+  },
+  {
+    "id": 73,
+    "name_course": "Español",
+    "name_group": "1A"
+  },
+  {
+    "id": 74,
+    "name_course": "Español",
+    "name_group": "1B"
+  },
+  {
+    "id": 75,
+    "name_course": "Español",
+    "name_group": "1C"
+  },
+  {
+    "id": 76,
+    "name_course": "Español",
+    "name_group": "1D"
+  },
+  {
+    "id": 77,
+    "name_course": "Español",
+    "name_group": "2A"
+  },
+  {
+    "id": 78,
+    "name_course": "Español",
+    "name_group": "2B"
+  },
+  {
+    "id": 79,
+    "name_course": "Español",
+    "name_group": "2C"
+  },
+  {
+    "id": 80,
+    "name_course": "Español",
+    "name_group": "2D"
+  },
+  {
+    "id": 81,
+    "name_course": "Español",
+    "name_group": "3A"
+  },
+  {
+    "id": 82,
+    "name_course": "Español",
+    "name_group": "3B"
+  },
+  {
+    "id": 83,
+    "name_course": "Español",
+    "name_group": "3C"
+  },
+  {
+    "id": 84,
+    "name_course": "Español",
+    "name_group": "3D"
+  }
+]
