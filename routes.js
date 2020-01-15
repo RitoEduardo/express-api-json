@@ -246,4 +246,67 @@ router.get('/workload/:curp', (req, res) => {
 
 });
 
+const eventsJSON = require('./data/events.json');
+
+router.get('/events', (req, res) => {
+
+  res.json({
+    response: true,
+    errors: [],
+    message: 'succesful',
+    data: eventsJSON
+  });
+
+});
+
+const arrayEvents = [
+  "Historia",
+  "Autonomia Curricular",
+  "Formación Cívica y Ética",
+  "Autonomia Curricular",
+  "Lengua Extranjera",
+  "Español",
+  "Matematicas",
+]
+
+function getRandomInt(min, max) {
+  return Math.floor(Math.random() * (max - min)) + min;
+}
+
+router.get('/events/:id_user', (req, res) => {
+
+  const id = req.params.id_user;
+  const user = users.find( r => r.userid == id );
+
+  if(!user){
+    return res.json({
+      response: false,
+      errors: [{
+        "error": 1,
+        "language": "es",
+        "message": "El usuario no existe o no cuenta con ningun evento"
+      }],
+      message: "User Data not found or don't have any events",
+      data: null
+    });
+  }
+
+  const eventsHard = eventsJSON.map( data => {
+    data.id_user = user.userid;
+    data.hrs = getRandomInt(5,18),
+    data.turno = Math.random() > .5 ? "Matutino" : "Despertino",
+    data.actividad = arrayEvents[getRandomInt(1,arrayEvents.length-1)];
+    return data;
+  })
+
+  res.json({
+    response: true,
+    errors: [],
+    message: 'succesful',
+    data: eventsJSON
+  });
+
+});
+
+
 module.exports = router;

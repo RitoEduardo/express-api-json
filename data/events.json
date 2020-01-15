@@ -1,0 +1,24 @@
+[
+  {
+      "id_user":283294,
+      "adscripcion": "14DST0001K",
+      "plaza": "074814 E0463 4.0 140123",
+      "efectos": "1417 - 9999(10)",
+      "remuneracion":"$0.00",
+      "funcion_subfuncion": "Hrs. Frente a Grupo",
+      "hrs": 22,
+      "actividad":"Historia",
+      "turno": "Matutino"
+  },
+  {
+    "id_user":283294,
+    "adscripcion": "14DST0001K",
+    "plaza": "074814 E0463 4.0 140123",
+    "efectos": "1417 - 9999(10)",
+    "remuneracion": "$0.00",
+    "funcion_Subfuncion": "Hrs. Frente a Grupo",
+    "hrs": 3,
+    "actividad":"Autonomia Curricular",
+    "turno": "Matutino"
+  }
+]
